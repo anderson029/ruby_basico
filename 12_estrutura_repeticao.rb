@@ -10,6 +10,8 @@ while valor <= 10
   valor+=1
 end
 =end
+
+
 ############################################# Utilizando Until ################# ao contrario do while 
 =begin
 puts "digite um valor"
@@ -19,6 +21,7 @@ until valor <= 10
   valor-=1
 end
 =end
+
 ############################## Vetores  ##################
 =begin
 Vetores e Arrays [ são ordenados, coleções indexadas por inteiro de qualquer objeto]
@@ -33,15 +36,32 @@ resultado esperado:
 vetor [2] 
 =end
 
-vetor = [1,2,3,4,5]
-vetor.each do |i| # comando .each ele passa por cada valor do vetor e armazena
-  puts i
-end
+#vetor = [1,2,3,4,5]
+#vetor.each do |i| # comando .each ele passa por cada valor do vetor e armazena
+#  puts i
+#end
 
  ############################ Hash (arrays)######## Utilizar o irb para exemplos
-        #hash = ("chaves", = "valor")
- hashes = {":a" => "10", ":b" => "20"} # :A [são simbolos que nao mudam pode ser chamdos de identificador podemos converter 
-            # inteiro para simbolo utilizando: :A.to_sym ]
-        ### chamando o valor da hash
- hashes["b"]
+#hashes = para strings
+#hash = para simbolos
+#hash = ("chaves" => "valor") pode ser chaves ou objetos :a=> "10"
+  #hashes = {"a" => "10", "b" => "20"}     
+ #chamando o valor da string
+  #hashes["a"] 
+ #hash = {:a => "10", :b => "20"} # :A [são simbolos que nao mudam pode ser chamdos de identificador podemos converter inteiro para simbolo utilizando: :A.to_sym ]
+### chamando o valor da hash
+ #puts hash[:b]
 
+=begin
+Qualquer caracter com dois pontos  é um símhbolo ex: :a
+muito utilizado para ser um identificador e não muda o valor de memória
+para converter a string m simbolo ex "abc".to_sym 
+=end
+######## for com 3 pontos(...) vai até o penúltimo elemento e com (..) até o último 
+ 
+#(1..5).each do |i|
+ # puts "imprimi todos" + "#{i}"
+  
+#end
+#quantidade de vezes que quer repetir algo
+5.times{puts"Teste"}
