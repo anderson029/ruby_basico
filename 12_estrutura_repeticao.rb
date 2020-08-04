@@ -22,7 +22,7 @@ until valor <= 10
 end
 =end
 
-############################## Vetores  ##################
+########################################################## Vetores  ##################
 =begin
 Vetores e Arrays [ são ordenados, coleções indexadas por inteiro de qualquer objeto]
 para ver exemplos abri o irb 
@@ -35,13 +35,12 @@ vetor [1] posição 1
 resultado esperado:
 vetor [2] 
 =end
-
 #vetor = [1,2,3,4,5]
 #vetor.each do |i| # comando .each ele passa por cada valor do vetor e armazena
 #  puts i
 #end
 
- ############################ Hash (arrays)######## Utilizar o irb para exemplos
+######################################################## Hash (arrays)######## Utilizar o irb para exemplos
 #hashes = para strings
 #hash = para simbolos
 #hash = ("chaves" => "valor") pode ser chaves ou objetos :a=> "10"
@@ -52,12 +51,15 @@ vetor [2]
 ### chamando o valor da hash
  #puts hash[:b]
 
+###############################SÍMBOLOS#####################################################
 =begin
 Qualquer caracter com dois pontos  é um símhbolo ex: :a
 muito utilizado para ser um identificador e não muda o valor de memória
 para converter a string m simbolo ex "abc".to_sym 
 =end
-######## for com 3 pontos(...) vai até o penúltimo elemento e com (..) até o último 
+
+
+#################################### for com 3 pontos(...) vai até o penúltimo elemento e com (..) até o último 
  
 #(1..5).each do |i|
  # puts "imprimi todos" + "#{i}"
