@@ -23,10 +23,10 @@ puts "2 é menor ou igual a 1? " "#{2 <= 1}" #imprime false
 
 puts "2 é igual a 1? " "#{2 == 1}" #imprime false
 
-puts "2 é diferente de 1? " "#{2 == 1}" #imprime true
+puts "2 é diferente de 1? " "#{2 != 1}" #imprime true
 
-puts "2 é maior que 10? " "#{2 <=> 10}" # imprime -1
+puts "2 é maior que 10? " "#{2 <=> 10}" # imprime -1, se o da esquerda for menor
 
-puts "2 é igual a 2? " "#{2 <=> 2}" #imprime  0
+puts "2 é igual a 2? " "#{2 <=> 2}" #imprime  0, se forem iguais
 
-puts "2 é maior que 1? " "#{2 <=> 1}" #imprime 1
+puts "2 é maior que 1? " "#{2 <=> 1}" #imprime 1, se o da esquerda for maior 
