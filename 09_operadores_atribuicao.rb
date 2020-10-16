@@ -15,7 +15,10 @@ puts a = 2
 
 puts b = a + 2
 
+puts b*=2 #valor de b multiplicando com 2
+
 puts b+= 1 #mesma coisa b = a + 2 so economiza tempo e dinheiro ;)
+
 
 
 
