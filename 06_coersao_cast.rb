@@ -16,5 +16,5 @@ puts variavel.to_i + 2
 puts variavel.to_f + 2
 
 #o resultado não é a soma e sim ele somente junta os valores da string
-puts variavel2.to_s + variavel2.to_s
+puts variavel + variavel2.to_s
 
